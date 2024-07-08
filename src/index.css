@@ -1,0 +1,102 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  height: 100vh; /* Full viewport height */
+  background-image: linear-gradient(#D8C7FF, #19006C); /* Gradient background */
+  font-family: 'Poppins', sans-serif; /* Font family */
+}
+
+/* Main container styling */
+.container {
+  width: 800px; /* Fixed width */
+  margin: auto; /* Center align horizontally */
+  margin-top: 150px; /* Top margin */
+  background: white; /* White background */
+  color: #262626; /* Text color */
+  display: flex;
+  flex-direction: column; /* Vertical column layout */
+  gap: 20px; /* Spacing between elements */
+  border-radius: 10px; /* Rounded corners */
+  padding: 40px 50px; /* Padding inside container */
+}
+
+/* Horizontal rule styling */
+.container hr {
+  height: 2px; /* Height of the horizontal rule */
+  border: none; /* No border */
+  background: #707070; /* Gray background */
+}
+
+/* Heading 2 styling */
+.container h2 {
+  font-size: 40px; /* Font size */
+  font-weight: 500; /* Font weight */
+}
+
+/* Unordered list item styling */
+.container ul li {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  height: 80px; /* Fixed height */
+  padding-left: 20px; /* Left padding */
+  border: 1px solid #686868; /* Border style */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Bottom margin */
+  font-size: 24px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button styling */
+.container button {
+  margin: auto; /* Center align horizontally */
+  width: 300px; /* Fixed width */
+  height: 70px; /* Fixed height */
+  background: #553f9a; /* Purple background */
+  color: #fff; /* Text color */
+  font-size: 28px; /* Font size */
+  font-weight: 500; /* Font weight */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Index text styling */
+.container .index {
+  margin: auto; /* Center align horizontally */
+  font-size: 22px; /* Font size */
+}
+
+/* Correct answer styling */
+.container .Correct {
+  background: #dffff2; /* Light green background */
+  background-color: #00d397; /* Green color */
+}
+
+/* Wrong answer styling */
+.container .Wrong {
+  background: #FFEBEB; /* Light red background */
+  background-color: #FF4A4A; /* Red color */
+}
+
+/* Input field styling */
+.container input {
+  width: 100%; /* Full width */
+  padding: 15px; /* Padding inside input */
+  margin-bottom: 20px; /* Bottom margin */
+  border: 1px solid #686868; /* Border style */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 40px; /* Font size */
+}
+
+/* Paragraph styling */
+.container p {
+  width: 800px; /* Fixed width */
+  height: 50px;
+  /* margin: auto; */
+  font-size: 27px; /* Font size */
+  font-weight: 400; /* Font weight */
+}
